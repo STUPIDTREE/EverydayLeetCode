@@ -50,7 +50,7 @@ void ArrayToTree(vector<int> & input, TreeNode*& output, int start) {
         return;
     }
 }
-
+// 这里是重载函数，函数返回值不同，参数个数不同，有返回值的函数，一定要正确return 返回值。
 TreeNode* ArrayToTree(vector<int>& input, int index) {
     if(index >= input.size())
         return nullptr;
